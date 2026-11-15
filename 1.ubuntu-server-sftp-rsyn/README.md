@@ -59,3 +59,16 @@ What I learned
 Limits and next steps
 - Files still sit on the same laptop, so this is practice, not a backup.
 - Still password-based. Next labs: firewall, then SSH keys.
+
+I didn't know I was supposed to document this whole thing with screenshots and so I didn't take many, just these three so yeah.
+
+Screenshots
+
+![ip and ssh check](linux/ip-check-and-ssh-status.png)
+Checking the ip address of the VM to see if the network stuff is working and then also seeing if openssh-server is installed and up
+
+![ssh install fail](linux/ssh-install-fail.png)
+Installing ssh failed
+
+![ssh install successful](linux/ssh-install-successful.png)
+Ssh installed successfully
