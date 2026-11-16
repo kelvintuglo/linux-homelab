@@ -1,6 +1,6 @@
 November 15, 2026.
 
-Lab 01: Ubuntu Server VM with SFTP and rsync backups
+Lab 01: Ubuntu Server VM with SFTP and rsync backups with the help Claude.
 
 Goal
 Build an Ubuntu Server VM and use it as a practice backup server:
@@ -72,3 +72,19 @@ Installing ssh failed
 
 ![ssh install successful](linux/ssh-install-successful.png)
 Ssh installed successfully
+
+
+November 16, 2026.
+
+lab 01 - try 02: Ubuntu server on VM with sftp and rsync backups.
+
+What i did:
+PS: I took only one snapshot after the install unlike the first try.
+
+- Created the VM, took a snapshot and logged in.
+- Checked if ssh was up and working
+- Updated the apt package and installed ssh
+- Checked if ssh was up after install
+- Enabled ssh
+
+
