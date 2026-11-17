@@ -127,3 +127,17 @@ Files transferred from the host machine via sftp by just dragging and dropping f
 
 ![viewing transferred files from host to vm on vm](sftp/viewing-transferred-files-from-host-to-vm-on-vm.png)
 Viewing the transferred file on the vm
+
+
+RSYNC SETUP
+
+![Remote host id change because of vm rebuild](rsync/Remote-host-id-change-because-of-vm-rebuild.png)
+![remote host id not changed 2](rsync/remote-host-id-not-changed-2.png)
+Because the vm was rebuilt the fingerprint changed and so there was a warning that someone could be eavesdropping
+
+![remote host id removed](rsync/remote-host-id-removed.png)
+This was done so that a the new ssh fingerprint could be accepted and used to transfer files remotely
+
+![rsync dry run with new fingerprint connection](rsync/rsync-dry-run-with-new-fingerprint-connection.png)
+
+![rsync actual run to send files from host to vm](rsync/rsync-actual-run-to-send-files-from-host-to-vm.png)
