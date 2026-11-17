@@ -139,5 +139,7 @@ Because the vm was rebuilt the fingerprint changed and so there was a warning th
 This was done so that a the new ssh fingerprint could be accepted and used to transfer files remotely
 
 ![rsync dry run with new fingerprint connection](rsync/rsync-dry-run-with-new-fingerprint-connection.png)
+Dry run and fingerprint acceptance.
 
 ![rsync actual run to send files from host to vm](rsync/rsync-actual-run-to-send-files-from-host-to-vm.png)
+Actual run to send files
