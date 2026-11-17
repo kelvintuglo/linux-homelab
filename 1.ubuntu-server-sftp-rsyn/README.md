@@ -122,8 +122,8 @@ Since the vm didn't come with directories in the home directory, I created some 
 ![connecting host to vm via sftp](sftp/connecting-host-to-vm-via-sftp.png)
 Connecting to the vm via sftp using ssh
 
-![file transferred from host to vm via sftp](sftp/file-transferred-from-host-to-vm-via-sftp.png)
+![files transferred from host to vm via sftp](sftp/files-transferred-from-host-to-vm-via-sftp.png)
 Files transferred from the host machine via sftp by just dragging and dropping from the host machine into the vm
 
-![viewing transferred files from the host to the vm on vm](sftp/viewing-transferred-files-from-the-host-to-the-vm-on-vm.png)
+![viewing transferred files from host to vm on vm](sftp/viewing-transferred-files-from-host-to-vm-on-vm.png)
 Viewing the transferred file on the vm
