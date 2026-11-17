@@ -81,10 +81,49 @@ lab 01 - try 02: Ubuntu server on VM with sftp and rsync backups.
 What i did:
 PS: I took only one snapshot after the install unlike the first try.
 
-- Created the VM, took a snapshot and logged in.
+- Created the VM, took a snapshot and logged in
 - Checked if ssh was up and working
 - Updated the apt package and installed ssh
 - Checked if ssh was up after install
 - Enabled ssh
+- Created folder structure
+- Transfer files via sftp from host to vm and vice versa
+- Delete old ssh fingerprint (because I started the vm fresh and the fingerprint changed and I had to delete that and establish another one)
+- Dry run rsync and accepted the fingerprint
+- Actual run rsync to transfer files
 
 
+
+
+
+Screenshots
+
+![Fresh ubuntu-server install](sftp/Fresh-ubuntu-server-install.png)
+Fresh ubuntu-server install to begin the lab.
+
+![ssh check and install](sftp/ssh-check-and-install.png)
+Checked to see if ssh was installed but it wasn't and so I updated the apt package manager and installed ssh
+
+![ssh installing](sftp/ssh-installing.png)
+Installing ssh
+
+![ssh install in progress](sftp/ssh-install-in-progress)
+ssh installing in progress
+
+![ssh status check(up but inactive)](sftp/ssh-status-check(up-but-inactive).png)
+Installed ssh successfully and running but it was dead
+
+![ssh enabled and running](sftp/ssh-enabled-and-running.png)
+Ssh enabled and working successfully
+
+![creating directories in home folder](sftp/creating-directories-in-home-folder.png)
+Since the vm didn't come with directories in the home directory, I created some myself
+
+![connecting host to vm via sftp](sftp/connecting-host-to-vm-via-sftp.png)
+Connecting to the vm via sftp using ssh
+
+![file transferred from host to vm via sftp](sftp/file-transferred-from-host-to-vm-via-sftp.png)
+Files transferred from the host machine via sftp by just dragging and dropping from the host machine into the vm
+
+![viewing transferred files from the host to the vm on vm](sftp/viewing-transferred-files-from-the-host-to-the-vm-on-vm.png)
+Viewing the transferred file on the vm
