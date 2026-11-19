@@ -2,7 +2,7 @@ November 15, 2026.
 
 Lab 01: Ubuntu Server VM with SFTP and rsync backups with the help Claude.
 
-Goal
+Goal:
 Build an Ubuntu Server VM and use it as a practice backup server:
 transfer files over SFTP and sync folders with rsync.
 
