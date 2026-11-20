@@ -13,8 +13,19 @@ Setup
 
 What I Did:
 
-- Created a "pre ssh" snapshot before connecting remotely using ssh.
+- Created a "pre ssh" snapshot before connecting remotely using ssh
 - Checked the .ssh folder to see if there were already generated keys and there was none
 - Generated the ssh keys
 - Copied the public key onto the server (VM)
-- Logged in remotely to the VM
+- Logged in remotely to the VM using ssh
+- Set up sftp again to check if the ssh key works and it did
+- Transfer files using rsync and the ssh key worked without asking me for any password
+
+Results:
+- sftp works but doesn't ask for the VM's password but rather it asks for the ssh passphrase
+- rsync works and also doesn't ask for a password it just
+- Remotely access the vm through my terminal using ssh keys
+
+Screenshots
+
+![
