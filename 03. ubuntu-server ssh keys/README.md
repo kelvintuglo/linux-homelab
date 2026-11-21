@@ -25,7 +25,3 @@ Results:
 - sftp works but doesn't ask for the VM's password but rather it asks for the ssh passphrase
 - rsync works and also doesn't ask for a password it just
 - Remotely access the vm through my terminal using ssh keys
-
-Screenshots
-
-![
